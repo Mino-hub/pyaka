@@ -1,0 +1,47 @@
+//------------------
+//brackpoint
+//-------------------
+
+$breakpoint-s  : 425px;
+$breakpoint-m  : 768px;
+$breakpoint-l  : 1024px;
+$breakpoint-xl : 1366px;
+
+@mixin xs($p,$v){
+    @media (max-width:$breakpoint-s){
+        #{$p}:$v;
+
+    }
+}
+@mixin s($p,$v){
+    @media (min-width:$breakpoint-s)and(max-width:$breakpoint-m){
+        #{$p}:$v;
+    }
+}
+@mixin m($p,$v){
+    @media (min-width:$breakpoint-m)and(max-width:$breakpoint-l){
+        #{$p}:$v;
+    }
+}
+@mixin l($p,$v){
+    @media (min-width:$breakpoint-l)and(max-width:$breakpoint-xl){
+        #{$p}:$v;
+    }
+}
+@mixin exl($p,$v){
+    @media (min-width:$breakpoint-xl){
+        #{$p}:$v;
+    }
+}
+
+@mixin media(
+$propaty-value-array
+){
+    @include xs(nth($propaty-value-array,1),nth($propaty-value-array, 2));
+    @include s(nth($propaty-value-array,1),nth($propaty-value-array, 3));
+    @include m(nth($propaty-value-array,1),nth($propaty-value-array, 4));
+    @include l(nth($propaty-value-array,1),nth($propaty-value-array, 5));
+    @include exl(nth($propaty-value-array,1),nth($propaty-value-array, 6));
+}
+
+ 
