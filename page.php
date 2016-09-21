@@ -7,14 +7,6 @@
             </h1>
         </div>
     <div class="separater top3 bottom1"></div>
-    <div id="articleheader__bc" class="flex-wrap-start">
-        <ul id="articleheader__bc__date-ul">
-            <li class="articleheader__bc__date-ul-li">
-                <?php echo get_the_modified_date("Y/m/d H:i:s");?>
-            </li>
-        </ul>
-    </div>
-    <div class="separater top3 bottom1"></div>
 </div>
 <div class="sd flex-wrap-center">
     <?php get_template_part("outline"); ?>
