@@ -58,27 +58,27 @@
 <ul class="sns__ul flex-wrap-center">
     <li class="sns__ul-li">
     <a href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=<?php the_title(); ?>">
-            <img src="./wp-content/themes/pyakathema/pyaka/img/twitter.svg">
+            <img src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/twitter.svg">
         </a>
     </li>
     <li class="sns__ul-li">
     <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>">
-            <img src="./wp-content/themes/pyakathema/pyaka/img/facebook.svg">
+            <img src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/facebook.svg">
         </a>
     </li>
     <li class="sns__ul-li">
     <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo get_the_permalink() ?>">
-            <img src="./wp-content/themes/pyakathema/pyaka/img/hatena.svg">
+            <img src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/hatena.svg">
         </a>
     </li>
     <li class="sns__ul-li">
         <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>">
-            <img src="./wp-content/themes/pyakathema/pyaka/img/google-plus.svg">
+            <img src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/google-plus.svg">
         </a>
     </li>
     <li class="sns__ul-li">
         <a href="http://line.me/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>">
-            <img src="./wp-content/themes/pyakathema/pyaka/img/line.svg" alt="LINEで送る" />
+            <img src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/line.svg" alt="LINEで送る" />
         </a>
     </li>
 </ul>

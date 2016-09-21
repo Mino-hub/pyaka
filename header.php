@@ -14,7 +14,7 @@
             <li class="top-img-wrap">
                 <div id="top-img">
                     <a href="<?php echo site_url(); ?>">
-                        <img class="top-svg" src="./wp-content/themes/pyakathema/pyaka/img/top.svg">
+                        <img class="top-svg" src="http://pyaka.net/wp-content/themes/pyakathema/pyaka/img/top.svg">
                     </a>
                 </div>
             </li>
