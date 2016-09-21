@@ -108,6 +108,8 @@ nav .serach-text{
         font-size:3rem;
     }
     h2{
+        @include media(padding-left 1rem 1rem 0 0 0);
+        line-height:200%;
         margin-top:4rem;
         margin-bottom:2rem;
         font-size:2rem;

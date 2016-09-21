@@ -245,10 +245,26 @@ nav .serach-text {
   margin-bottom: 3rem;
   font-size: 3rem; }
 #content h2 {
+  line-height: 200%;
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 900; }
+  @media (max-width: 425px) {
+    #content h2 {
+      padding-left: 1rem; } }
+  @media (min-width: 425px) and (max-width: 768px) {
+    #content h2 {
+      padding-left: 1rem; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #content h2 {
+      padding-left: 0; } }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    #content h2 {
+      padding-left: 0; } }
+  @media (min-width: 1366px) {
+    #content h2 {
+      padding-left: 0; } }
 #content h2:before {
   content: " ";
   display: inline-block;
