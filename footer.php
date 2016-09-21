@@ -4,7 +4,7 @@
 <footer>
     <div id="footer-img">
         <a href="<?php echo site_url(); ?>">
-            <img class="footer-svg" src="./wp-content/themes/pyaka-2/img/footer.svg">
+            <img class="footer-svg" src="./wp-content/themes/pyakathema/pyaka/img/footer.svg">
         </a>
     </div>
 </footer>

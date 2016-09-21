@@ -14,12 +14,12 @@
             <li class="top-img-wrap">
                 <div id="top-img">
                     <a href="<?php echo site_url(); ?>">
-                        <img class="top-svg" src="./wp-content/themes/pyaka-2/img/top.svg">
+                        <img class="top-svg" src="./wp-content/themes/pyakathema/pyaka/img/top.svg">
                     </a>
                 </div>
             </li>
             <li class="nav__ul-li"><a href="<?php echo site_url(); ?>" class="">すべての記事</a></li>
-            <li class="nav__ul-li"><a href="#" class="">このサイトについて</a></li>
+            <li class="nav__ul-li"><a href="http://pyaka.net/?p=513" class="">このサイトについて</a></li>
             <li class="nav__ul-li">
                 <form id="inner_serach" method="get" action="<?php bloginfo('url') ?>" />
                     <input type="text" class="serach-text" name="s" placeholder="検索したいキーワードを入力">
