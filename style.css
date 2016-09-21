@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Thema Name: pyaka-2
+Thema Name: base
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1140,7 +1140,15 @@ a.articleheader__metainfo__tag-ul-li-a:visited {
   margin-bottom: 3rem; }
 
 .youtube {
+  padding: 0 2rem;
   margin-bottom: 2rem; }
+
+.wp-caption {
+  width: 100%;
+  padding: 2rem 0; }
+
+.wp-caption a {
+  padding: 0 1rem; }
 
 .flex-wrap-between {
   display: flex;
