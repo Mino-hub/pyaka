@@ -1145,10 +1145,7 @@ a.articleheader__metainfo__tag-ul-li-a:visited {
 
 .wp-caption {
   width: 100%;
-  padding: 2rem 0; }
-
-.wp-caption a {
-  padding: 0 1rem; }
+  padding: 2rem 1rem; }
 
 .flex-wrap-between {
   display: flex;
