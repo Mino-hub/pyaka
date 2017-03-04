@@ -43,7 +43,9 @@
 <div id="content">
     <?php the_content(); ?>
 </div>
+<div class="flex-wrap-center">
 <?php get_template_part("bottom-unit"); ?>
+</div>
 <div class="separater top1 bottom1"></div>
 <div class="sns">
     <?php get_template_part("sns"); ?>
