@@ -25,6 +25,10 @@
         <?php get_template_part("next-pre"); ?>
     </div>
     <div class="separater top1 bottom1"></div>
+        <div class="flex-wrap-center">
+            <?php get_template_part("top-unit"); ?>
+        </div>
+    <div class="separater top1 bottom1"></div>
     <div id="articleheader__metainfo">
         <div id="articleheader__metainfo__related-article">
             <?php get_template_part("articleheader-metainfo-related-article"); ?>
@@ -43,7 +47,9 @@
 <div id="content">
     <?php the_content(); ?>
 </div>
-<?php get_template_part("bottom-unit"); ?>
+<div class="flex-wrap-center">
+    <?php get_template_part("bottom-unit"); ?>
+</div>
 <div class="separater top1 bottom1"></div>
 <div class="sns">
     <?php get_template_part("sns"); ?>
