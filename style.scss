@@ -176,6 +176,7 @@ nav .serach-text{
         padding-top:0;
     }
     p{
+        width:100%;
         color:#424448;
         margin-bottom:2rem;
         line-height:1.5rem;
@@ -695,9 +696,9 @@ a.articleheader__metainfo__tag-ul-li-a:visited{
     margin-bottom:3rem;
 }
 .youtube {
-  margin: 1rem;
+  margin: 1rem 2rem;
   position: relative;
-  width: calc(100% - 4rem);
+  width: calc(100%);
   padding-top: 56.25%;
   float: left; }
 
