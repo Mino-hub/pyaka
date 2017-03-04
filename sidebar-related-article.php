@@ -1,6 +1,6 @@
 <?php
 $args = array(
-    'posts_per_page'   => 20, 
+    'posts_per_page'   => 60, 
     'orderby'          => 'rand',
     'post_type'        => array('post'),
     'post_status'      => 'publish'
