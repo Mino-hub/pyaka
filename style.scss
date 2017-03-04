@@ -758,6 +758,15 @@ a.articleheader__metainfo__tag-ul-li-a:visited{
     margin-top:1rem;
     margin-bottom:1rem;
 }
+.sdoutline{
+    @include media(width 300px 300px 336px 336px 336px);
+    @include media(height 250px 250px 280px 280px 280px);
+    @include media(margin-left 10px 10px 1rem 1rem 1rem);
+    @include media(margin-right 10px 10px 1rem 1rem 1rem);
+    background-color:#ffffff;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
 
 .sd-top{
     @include media(width 300px 300px 336px 728px 728px);

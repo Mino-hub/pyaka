@@ -1270,6 +1270,71 @@ a.articleheader__metainfo__tag-ul-li-a:visited {
     .sd {
       margin-right: 1rem; } }
 
+.sdoutline {
+  background-color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  @media (max-width: 425px) {
+    .sdoutline {
+      width: 300px; } }
+  @media (min-width: 425px) and (max-width: 768px) {
+    .sdoutline {
+      width: 300px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sdoutline {
+      width: 336px; } }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .sdoutline {
+      width: 336px; } }
+  @media (min-width: 1366px) {
+    .sdoutline {
+      width: 336px; } }
+  @media (max-width: 425px) {
+    .sdoutline {
+      height: 250px; } }
+  @media (min-width: 425px) and (max-width: 768px) {
+    .sdoutline {
+      height: 250px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sdoutline {
+      height: 280px; } }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .sdoutline {
+      height: 280px; } }
+  @media (min-width: 1366px) {
+    .sdoutline {
+      height: 280px; } }
+  @media (max-width: 425px) {
+    .sdoutline {
+      margin-left: 10px; } }
+  @media (min-width: 425px) and (max-width: 768px) {
+    .sdoutline {
+      margin-left: 10px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sdoutline {
+      margin-left: 1rem; } }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .sdoutline {
+      margin-left: 1rem; } }
+  @media (min-width: 1366px) {
+    .sdoutline {
+      margin-left: 1rem; } }
+  @media (max-width: 425px) {
+    .sdoutline {
+      margin-right: 10px; } }
+  @media (min-width: 425px) and (max-width: 768px) {
+    .sdoutline {
+      margin-right: 10px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sdoutline {
+      margin-right: 1rem; } }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .sdoutline {
+      margin-right: 1rem; } }
+  @media (min-width: 1366px) {
+    .sdoutline {
+      margin-right: 1rem; } }
+
 .sd-top {
   background-color: #ffffff;
   margin-top: 1rem;

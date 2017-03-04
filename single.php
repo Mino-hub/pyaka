@@ -36,7 +36,7 @@
         <div class="separater top1 bottom1"></div>
     </div>
 </div>
-<div class="sd flex-wrap-center">
+<div class="flex-wrap-center">
     <?php get_template_part("outline"); ?>
 </div>
 <div class="separater top1 bottom3"></div>
