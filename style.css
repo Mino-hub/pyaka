@@ -335,8 +335,7 @@ nav .serach-text {
   font-weight: 900; }
 #content img {
   max-width: 100%;
-  height: auto;
-  padding: 1rem; }
+  height: auto; }
 #content ul {
   width: 100%;
   padding: 2rem;
@@ -1163,7 +1162,7 @@ a.articleheader__metainfo__tag-ul-li-a:visited {
   margin-bottom: 3rem; }
 
 .youtube {
-  margin: 1em 0;
+  margin: 1rem;
   position: relative;
   width: 100%;
   padding-top: 56.25%;
