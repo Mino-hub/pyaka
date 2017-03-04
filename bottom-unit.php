@@ -1,4 +1,4 @@
-<div class="gs">
+<div class="sd">
 <style>
 @media(max-width: 319px) { .ad_bottom { width: 300px; height: 250px; } }
 @media(max-width: 320px)and(max-width: 355px){ .ad_bottom { width: 300px; height: 250px; } }
